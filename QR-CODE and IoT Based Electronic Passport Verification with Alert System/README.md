@@ -54,7 +54,7 @@ The electronic passport verification system operates as follows:
 3. **Verification**: The system connects to the Blynk platform to fetch additional data and verify the passport holder's identity.
 4. **Status Display**: The user's information and verification status are displayed on the LCD screen. An authorized user will see a green status, while an unauthorized user will see a red status.
 
-<img src="QR-CODE and IoT Based Electronic Passport Verification with Alert System/Images/Working Process.png" alt="Process Diagram" height="400px" width="650px" style="display: block; margin: 0 auto;">
+<img src="Images/Working Process.png" alt="Process Diagram" height="400px" width="650px" style="display: block; margin: 0 auto;">
 
 ## User Interface
 
@@ -62,10 +62,10 @@ The user interface is designed to be clear and straightforward, displaying key i
 
 - **Authorized User**: When the passport holder's identity is verified, their profile will be displayed with a green status indicating successful verification.
   
-<img src="QR-CODE and IoT Based Electronic Passport Verification with Alert System/Images/authorized.png" alt="Authorized User Interface" height="400px" width="650px" style="display: block; margin: 0 auto;">
+<img src="Images/authorized.png" alt="Authorized User Interface" height="400px" width="650px" style="display: block; margin: 0 auto;">
 
 - **Unauthorized User**: If the verification fails, the profile will show a red status indicating unauthorized access.
-<img src="QR-CODE and IoT Based Electronic Passport Verification with Alert System/Images/unauthorized.png" alt="Unauthorized User Interface" height="400px" width="650px" style="display: block; margin: 0 auto;">
+<img src="Images/unauthorized.png" alt="Unauthorized User Interface" height="400px" width="650px" style="display: block; margin: 0 auto;">
 
 ## Conclusion
 
