@@ -50,7 +50,7 @@ The Smart Irrigation system operates through the following process:
    
 2. **Data Analysis:** The microcontroller analyzes sensor data to determine optimal irrigation schedules and fire detection based on sunlight intensity.
 
-<img src="Images/working_process.png" alt="Working Process" width="600" height="400">
+<img src="Images/working_process.png" alt="Working Process" width="700" height="500">
 
 3. **Irrigation Control:** The system activates the water pump motor via the relay module to irrigate fields according to predefined schedules and environmental conditions.
 
@@ -66,7 +66,7 @@ The user interface for the Smart Irrigation system includes:
 - **Web Dashboard:** Offers a comprehensive view of system status, sensor readings, and historical data.
 - **Local Interface (optional):** LCD display for on-site monitoring and manual control.
 
-<img src="Images/user_interface.png" alt="User Interface" width="600" height="400">
+<img src="Images/user_interface.png" alt="User Interface" width="700" height="500">
 
 These interfaces facilitate intuitive interaction with the Smart Irrigation system, empowering users to make informed decisions and optimize agricultural practices.
 
@@ -83,7 +83,7 @@ The final prototype of the Smart Irrigation system demonstrates the integration 
 
 ### Prototype Image
 
-<img src="Images/final_prototype.png" alt="Final Prototype" width="600" height="400">
+![User Interface](Images/final_prototype.png)
 
 This prototype showcases the functionality and design principles of the Smart Irrigation system, serving as a testbed for further development and refinement.
 
