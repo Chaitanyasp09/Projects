@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set, viewport, and description -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Title of the page -->
+    <title>User Information</title>
+    
+    <!-- Internal styles for status and other elements -->
+    <style>
+      .status {
+        width: 15rem;
+        height: 3rem;
+      }
+      .statusval {
+        color: white;
+        font-size: 32px;
+      }
+      img {
+        width: 750px;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #eee;">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col">
+          <!-- Navigation with page title -->
+          <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4">
+            <h1 style="color:#1F4E79; text-align:center; font-family:Segoe UI Black;">
+              <b>Electronic Passport Verification</b>
+            </h1>
+          </nav>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-lg-4">
+          <!-- User avatar and name card -->
+          <div class="card mb-4">
+            <div class="card-body text-center">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
+                class="img-fluid" style="width: 150px;">
+              <h5 class="uname my-3">User Name</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <!-- User details card -->
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Full Name:</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="name text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="email mb-0">Passport ID:</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="id text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">DOB:</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="dob text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Address:</p>
+                </div>
+                <div class="col-sm-9">
+                  <p class="add text-muted mb-0"></p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-3">
+                  <p class="mb-0">Status:</p>
+                </div>
+                <div class="status col-sm-9">
+                  <p class="statusval"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- JavaScript for dynamic data fetching and updating fields -->
+    <script>
+      setInterval(function() {
+        fetch('http://blynk-cloud.com/8fff08c769f44b81bd45f0cbcd807137/get/V20')
+          .then((response) => response.json())
+          .then((data) => {
+            const value = data[0];
+            console.log(value);
+            
+            // Update fields based on the received value
+            if (value == 1) {
+              setFields("1", "John Doe", "202110110", "09/05/2003", "Bangalore, India", "Authorized", "green");
+            } else if (value == 2) {
+              setFields("2", "Jane Smith", "202110002", "12/08/2003", "Andhra Pradesh, India", "Authorized", "green");
+            } else if (value == 3) {
+              setFields("3", "Robert Brown", "202110027", "20/07/2003", "Telangana, India", "Authorized", "green");
+            } else if (value == 4) {
+              setFields("4", "Alice Johnson", "202110069", "22/04/2003", "Tumkur, India", "Authorized", "green");
+            } else if (value == 5) {
+              setFields("5", "Michael Davis", "202117765", "17/02/2003", "Bangalore, India", "Unauthorized", "red");
+            } else if (value == 6) {
+              setFields("6", "Jessica Miller", "20210974", "09/03/2003", "Bangalore, India", "Unauthorized", "red");
+            }
+          });
+      }, 5000);
+
+      function setFields(imgId, name, passId, dob, add, status, color) {
+        document.querySelector(".name").innerHTML = name;
+        document.querySelector(".uname").innerHTML = name;
+        document.querySelector(".id").innerHTML = passId;
+        document.querySelector(".dob").innerHTML = dob;
+        document.querySelector(".add").innerHTML = add;
+        document.querySelector(".statusval").innerHTML = status;
+        document.querySelector(".status").style.backgroundColor = color;
+        document.querySelector("img").setAttribute("src", "images/" + imgId + ".jpg");
+      }
+    </script>
+
+    <!-- University logo -->
+    <center>
+      <img src="https://presidencyuniversity.in/wp-content/uploads/2018/02/presidency-university-logo.png" alt="University Logo" />
+    </center>
+  </body>
+</html>
