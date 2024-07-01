@@ -15,12 +15,12 @@ This project aims to develop a cost-effective fire alarm system using Arduino Un
 - **Simulation:** Tinkercad was used for circuit simulation and design.
 
 ## Circuit Connection
-<img src="Fire & Smoke, Gas Detector With Alarm System/Images/connection.png" alt="Circuit Connection" width="500">
+<img src="Images/connection.png" alt="Circuit Connection" width="500">
 
 This diagram illustrates how the components are connected to the Arduino Uno and to each other to form the fire and smoke, gas detector system.
 
 ## Final Project
-<img src="Fire & Smoke, Gas Detector With Alarm System/Images/final.png" alt="Final Model" width="500">
+<img src="Images/final.png" alt="Final Model" width="500">
 
 This image shows the final prototype of the fire and smoke, gas detector with alarm system.
 
