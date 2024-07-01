@@ -9,6 +9,7 @@ Welcome to the **Electronic Passport Verification** project! This document provi
 - [Software Requirements](#software-requirements)
 - [Working Process](#working-process)
 - [User Interface](#user-interface)
+- [Prototype](#prototype)
 - [Conclusion](#conclusion)
 
 ## About the Project
@@ -66,6 +67,12 @@ The user interface is designed to be clear and straightforward, displaying key i
 
 - **Unauthorized User**: If the verification fails, the profile will show a red status indicating unauthorized access.
 <img src="Images/unauthorized.png" alt="Unauthorized User Interface" height="400px" width="650px" style="display: block; margin: 0 auto;">
+
+## Prototype
+
+The prototype of the electronic passport verification system demonstrates its physical implementation and design considerations.
+
+<img src="Images/prototype.png" alt="Prototype of the Electronic Passport Verification System" height="600px" style="display: block; margin: 0 auto;">
 
 ## Conclusion
 
