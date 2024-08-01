@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="my_primary">#6CB4EE</color>
+    <color name="my_secondary">#6CB4EE</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="off_white">#FAFAFA</color>
+    <color name="light_gray">#C3C3C3</color>
+
+    <color name="login_page_green">#20b2aa</color>
+    <color name="dark_blue">#6CB4EE</color>
+
+</resources>
