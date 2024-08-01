@@ -40,15 +40,16 @@ The application follows a modular architecture, separating the concerns of UI, d
 Here are some screenshots illustrating the key features and user interface of the application.
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="./Images/WelcomeScreen-1" style="width: 32%;">
-  <img src="./Images/WelcomeScreen-2" style="width: 32%;">
-  <img src="./Images/WelcomeScreen-3" style="width: 32%;">
-  <img src="./Images/WelcomeScreen-4" style="width: 32%;">
-  <img src="./Images/WelcomeScreen-5" style="width: 32%;">
-  <img src="./Images/WelcomeScreen-6" style="width: 32%;">
-  <img src="./Images/MainPage-1" style="width: 32%;">
-  <img src="./Images/MainPage-2" style="width: 32%;">
-  <img src="./Images/ChatScreen" style="width: 32%;">
-</div>
+  <img src="./Images/WelcomeScreen-1.png" style="width: 32%;">
+  <img src="./Images/WelcomeScreen-2.png" style="width: 32%;">
+  <img src="./Images/WelcomeScreen-3.png" style="width: 32%;">
+  <img src="./Images/WelcomeScreen-4.png" style="width: 32%;">
+  <img src="./Images/WelcomeScreen-5.png" style="width: 32%;">
+  <img src="./Images/WelcomeScreen-6.png" style="width: 32%;">
+  <img src="./Images/MainPage-1.png" style="width: 32%;">
+  <img src="./Images/MainPage-2.png" style="width: 32%;">
+  <img src="./Images/ChatScreen.png" style="width: 32%;">
+</div><br><br>
+
 ## Conclusion
 The Full-Stack Android Chat Application with Firebase Framework is a robust and scalable solution for real-time communication needs. It demonstrates effective use of Firebase services to provide secure authentication, reliable data storage, and real-time messaging capabilities. The application is a valuable addition to any organization seeking to enhance their communication tools or provide a chat platform for users.
