@@ -54,4 +54,3 @@ Here are some screenshots illustrating the key features and user interface of th
 The "Spring Security in Java Web Application: Encrypted Authentication & OAuth Support" project demonstrates a robust approach to securing a Java web application. By integrating Spring Security for both traditional encrypted authentication and modern OAuth support, the project offers a versatile solution for user authentication and authorization. This implementation ensures secure, scalable, and maintainable security features, making it a valuable addition to any enterprise-level web application.
 
 ---
-
