@@ -1,69 +1,80 @@
-# Welcome to your Lovable project
+# AgroTrack: One App for All Your Farming Needs
 
-## Project info
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Components Used](#components-used)
+- [Working Environment](#working-environment)
+- [Application Architecture](#application-architecture)
+- [Key Features](#key-features)
+- [Results](#results)
+  - [Mobile Application](#mobile-application)
+  - [Web Interface](#web-interface)
+- [Conclusion](#conclusion)
 
-**URL**: https://lovable.dev/projects/8ac48ec8-9bfb-4484-b9f2-16f12986a287
+## Project Overview
+AgroTrack is an all-in-one farm management solution designed to streamline the operations of modern farmers. This system supports crop monitoring, irrigation alerts, market tracking, and more through a feature-rich Android mobile application and a responsive web dashboard. AgroTrack empowers users with real-time insights and smart automation for improved decision-making and productivity.
 
-## How can I edit this code?
+## Components Used
+- Android Studio: For native Android app development.
+- Firebase Authentication: Secure user login and signup.
+- Firebase Firestore: Cloud-based NoSQL database for storing user data.
+- Firebase Cloud Messaging: Push notifications and alerts.
+- Firebase Storage: Media and file storage for farm data.
+- HTML, CSS, JavaScript: For developing the responsive web dashboard.
+- Material Design / Tailwind CSS: For clean and user-friendly interfaces.
 
-There are several ways of editing your application.
+## Working Environment
+- IDEs: Android Studio and Visual Studio Code
+- Database: Firebase Firestore
+- Hosting: Firebase Hosting / GitHub Pages (for web)
+- Testing: Android Emulator, Chrome DevTools, Physical Android Devices
 
-**Use Lovable**
+## Application Architecture
+The AgroTrack system adopts a modular architecture to ensure high scalability and maintainability:
+- Model-View-ViewModel (MVVM) pattern for the Android application.
+- Modular and component-based structure for the web application.
+- Repository Pattern to separate data access and logic layers.
+- Real-time database sync via Firebase for all user actions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ac48ec8-9bfb-4484-b9f2-16f12986a287) and start prompting.
+## Key Features
+- User Authentication: Login and registration using Firebase Authentication.
+- Crop Monitoring: Track the health and growth status of crops.
+- Smart Irrigation: Alerts based on environmental data or manual input.
+- Market Price Tracking: Stay updated with local mandi rates.
+- Farm Dashboard: Overview of farm metrics, logs, and recent activity.
+- Geo-Location Tagging: Save and view specific farm plots using maps.
+- Cloud Backup: Store all farm data securely on the cloud.
+- Media Upload: Upload images and documents relevant to crop status.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Results
 
-**Use your preferred IDE**
+### Mobile Application
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The following screenshots demonstrate the user interface and features of the AgroTrack Android application:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
+  <img src="./Assets/App/1.png" width="24%">
+  <img src="./Assets/App/2.png" width="24.4%">
+  <img src="./Assets/App/3.png" width="24%">
+  <img src="./Assets/App/4.png" width="24%">
+  <img src="./Assets/App/5.png" width="24%">
+  <img src="./Assets/App/6.png" width="24%">
+  <img src="./Assets/App/7.png" width="24%">
+  <img src="./Assets/App/8.png" width="24%">
+</div>
 
-Follow these steps:
+### Web Interface
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+The following screenshots highlight the AgroTrack web dashboard:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
+  <img src="./Assets/Webpage/1.jpg" width="900px">
+  <img src="./Assets/Webpage/2.jpg" width="900px">
+  <img src="./Assets/Webpage/3.jpg" width="900px">
+  <img src="./Assets/Webpage/4.jpg" width="900px">
+  <img src="./Assets/Webpage/5.jpg" width="900px">
+</div>
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Conclusion
+AgroTrack is a robust, scalable, and efficient solution for modern agriculture. By integrating real-time data services, cloud storage, and cross-platform accessibility, the system ensures that farmers can manage their activities effortlessly from anywhere. It serves as a strong foundation for smart farming and future integration with IoT-based automation tools.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8ac48ec8-9bfb-4484-b9f2-16f12986a287) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
