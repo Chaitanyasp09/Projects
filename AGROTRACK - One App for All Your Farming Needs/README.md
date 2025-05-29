@@ -1,5 +1,4 @@
 # AgroTrack: One App for All Your Farming Needs
-
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Components Used](#components-used)
